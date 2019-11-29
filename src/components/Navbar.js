@@ -1,0 +1,13 @@
+import React from 'react';
+import './Navbar.css';
+
+function NavBar() {
+    return (
+        <nav className="Navbar">
+            <a href="https://en.wikipedia.org/wiki/The_Simpsons">Simpons Quotes</a>
+        </nav>
+    );
+}
+
+export default NavBar;
+
